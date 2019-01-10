@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body {
+    background-color: #009587;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Karla',
+    sans-serif;
+}
+
+.contactImage {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+input {
+    margin: 10px 5px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #FEEA3A;
+}
+button {
+    background-color: #FEEA3A;
+    padding: 4px 5px;
+    border-radius: 4px;
+    font-size: 13px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #FEC006;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    text-align: center;
+}
+.contactItem {
+    background-color:#FEEA3A;
+    width: 450px;
+    height: 485px;
+    margin: 8px 0;
+    border-radius: 10px;
+    font-size: 24px;
+}
